@@ -7,6 +7,7 @@ Feature: swag lab
 	 
 	 Given como usuario estoy en la pagina
    When como usuario me logueo con el usuario standard_user y password secret_sauce
+   And como usuario selecciono el articulo de mayor valor
    And como usuario ingreso al carrito
    And como usuario ingreso el nombre peter albeiro
    And como usuario ingreso el apellido alzate
